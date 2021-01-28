@@ -2,8 +2,8 @@
 name: "Yurihaha"
 description: "유리의 테크 블로그입니다."
 meta_description: "프론트엔드 개발"
-logo: "/assets/images/profile.jpeg"
-favicon: "assets/images/logo.png"
+logo: ""
+favicon: ""
 baseurl: ""
 google_analytics: ""
 disqus: "" #댓글 api 이용시 disqus-id 입력
