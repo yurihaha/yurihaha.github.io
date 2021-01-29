@@ -3,7 +3,7 @@ layout: post
 title: "[node js] 쿼리스트링을 이용한 페이지출력"
 comments: true
 date: 2019-05-26 20:00:00 +0900
-categories: []
+categories: 프론트엔드챕터
 tag: [node js, querystring]
 ---
 
