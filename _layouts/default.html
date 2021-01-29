@@ -97,13 +97,18 @@
           <ul class="navbar-nav ml-auto">
             {% if page.url == "/" %}
             <li class="nav-item active">{% else %}</li>
-
             <li class="nav-item">
               {% endif %}
-              <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+              <a class="nav-link" href="{{ site.baseurl }}/index.html">blog </a>
             </li>
-
             {% comment %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.baseurl }}/home">Home</a>
+            </li>
+            {% endcomment %} {% comment %}
             <li class="nav-item">
               <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
             </li>
@@ -159,11 +164,8 @@
         <!-- Site Title
 ================================================== -->
         <div class="mainheading">
-          <h1 class="sitetitle">Yurihaha's Tech Blog</h1>
-          <p class="lead">
-            프론트엔드 개발자 하유리입니다. 포스팅에 잘못된 부분이나 수정했으면
-            하는 부분이 있으시면 댓글 남겨주세요!
-          </p>
+          <h1 class="title">I'm Yuriha, <br />a Front-End Developer. 👩‍💻</h1>
+          <p class="sub">안녕하세요 프론트엔드 개발자 하유리입니다.</p>
         </div>
 
         <!-- Content
